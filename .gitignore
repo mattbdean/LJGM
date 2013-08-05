@@ -1,0 +1,6 @@
+/build/
+/backups/
+/sample/
+/library*.xml
+/settings.ini
+/build.fxbuild
