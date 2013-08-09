@@ -1,6 +1,17 @@
+# Contains all the deployment jars/classes
 /build/
+
+# Backups of the library.xml files created by the application
 /backups/
+
+# Sample images
 /sample/
+
+# Any library XML files
 /library*.xml
+
+# Compiled classes
+/bin/
+
+# Settings file made by the application
 /settings.ini
-/build.fxbuild
