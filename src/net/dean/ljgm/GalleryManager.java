@@ -16,7 +16,6 @@ import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.stream.StreamResult;
 
 import net.dean.ljgm.logging.LoggingLevel;
@@ -158,7 +157,7 @@ public class GalleryManager {
 			// Could not locate the file, bad encoding, etc.
 			LJGM.instance().getLogger().throwable(e, "There was a problem reading the file");
 			return galleries;
-		} catch (SAXException | ParserConfigurationException e) {
+		} catch (SAXException e) {
 			// Syntax error
 			LJGM.instance().getLogger().throwable(e, "There was a problem parsing the file");
 			return galleries;
