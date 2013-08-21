@@ -1,17 +1,22 @@
+# Eclipse stuff
+.settings/
+.classpath
+.project
+
 # Contains all the deployment jars/classes
-/build/
+build/
 
 # Backups of the library.xml files created by the application
-/backups/
+backups/
 
 # Sample images
-/sample/
+sample/
 
 # Any library XML files
-/library*.xml
+library*.xml
 
 # Compiled classes
-/bin/
+bin/
 
 # Settings file made by the application
 /settings.ini

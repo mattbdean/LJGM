@@ -1,0 +1,3 @@
+[submodule "DeanCommons"]
+	path = DeanCommons
+	url = https://github.com/thatJavaNerd/DeanCommons
