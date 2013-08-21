@@ -2,7 +2,7 @@ package net.dean.ljgm.task;
 
 import java.io.File;
 
-import net.dean.gui.ImageWithFile;
+import net.dean.gui.fx.ImageWithFile;
 
 // TODO: Auto-generated Javadoc
 /*

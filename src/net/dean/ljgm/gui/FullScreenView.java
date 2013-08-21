@@ -29,7 +29,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import net.dean.gui.ImageWithFile;
+import net.dean.gui.fx.ImageWithFile;
 import net.dean.ljgm.Gallery;
 import net.dean.ljgm.LJGM;
 

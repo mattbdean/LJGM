@@ -14,7 +14,7 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.TextAlignment;
-import net.dean.gui.ImageWithFile;
+import net.dean.gui.fx.ImageWithFile;
 import net.dean.ljgm.Gallery;
 import net.dean.ljgm.LJGM;
 import net.dean.ljgm.task.Queueable;
@@ -98,7 +98,7 @@ public class ImageDisplay extends BorderPane implements Queueable {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see net.dean.ljgm.task.Queueable#onLoaded(net.dean.gui.ImageWithFile)
+	 * @see net.dean.ljgm.task.Queueable#onLoaded(net.dean.gui.fx.ImageWithFIle)
 	 */
 	public void onLoaded(ImageWithFile img) {
 		button.setGraphic(new ImageView(img));

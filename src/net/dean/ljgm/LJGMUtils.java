@@ -13,7 +13,7 @@ import java.util.List;
 
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import net.dean.gui.ImageWithFile;
+import net.dean.gui.fx.ImageWithFile;
 import net.dean.util.file.FileUtil;
 
 // TODO: Auto-generated Javadoc

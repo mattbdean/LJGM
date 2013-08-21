@@ -6,7 +6,7 @@ import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 import javafx.concurrent.WorkerStateEvent;
 import javafx.event.EventHandler;
-import net.dean.gui.ImageWithFile;
+import net.dean.gui.fx.ImageWithFile;
 import net.dean.ljgm.LJGM;
 import net.dean.ljgm.LJGMDefaults;
 import net.dean.ljgm.gui.ImageDisplay;

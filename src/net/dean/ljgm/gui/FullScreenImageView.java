@@ -6,7 +6,7 @@ import javafx.scene.control.ProgressIndicator;
 import javafx.scene.control.ProgressIndicatorBuilder;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
-import net.dean.gui.ImageWithFile;
+import net.dean.gui.fx.ImageWithFile;
 import net.dean.ljgm.task.Queueable;
 
 /*
@@ -48,7 +48,7 @@ public class FullScreenImageView extends BorderPane implements Queueable {
 	}
 	
 	/* (non-Javadoc)
-	 * @see net.dean.ljgm.task.Queueable#onLoaded(net.dean.gui.ImageWithFile)
+	 * @see net.dean.ljgm.task.Queueable#onLoaded(net.dean.gui.fx.ImageWithFIle)
 	 */
 	@Override
 	public void onLoaded(ImageWithFile img) {
