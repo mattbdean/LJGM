@@ -10,7 +10,6 @@ import java.text.SimpleDateFormat;
 
 import net.dean.ljgm.LJGM;
 
-// TODO: Auto-generated Javadoc
 /**
  * This class is responsible for logging data the the standard output streams.
  */
@@ -93,7 +92,7 @@ public class LJGMLogger {
 	 *            The message
 	 */
 	public void throwable(Throwable t, String message) {
-		log(format("[" + t.getClass().getSimpleName() + "] " + message + ":" + t.getLocalizedMessage(), ERROR), System.err);
+		log(format("[" + t.getClass().getSimpleName() + "] " + message + t.getLocalizedMessage(), ERROR), System.err);
 	}
 
 	/**

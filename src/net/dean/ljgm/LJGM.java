@@ -20,7 +20,6 @@ import net.dean.ljgm.gui.ViewingArea;
 import net.dean.ljgm.gui.gallerycreator.GalleryCreator;
 import net.dean.ljgm.logging.LJGMLogger;
 
-// TODO: Auto-generated Javadoc
 /**
  * This is the main class of the Lightweight Java Gallery Manager project.
  * 
