@@ -71,7 +71,7 @@ public class GalleryManager {
 	 * then outputs the file into the location specified by {@link #CONFIG_XML}.
 	 */
 	public void save(boolean backup) {
-		if (backup) {
+		if (backup && CONFIG_XML.exists()) {
 			// Create the backup directory
 			File target = new File(System.getProperty("user.dir") + "/backups/libary-" + backupDateFormat.format(new Date())
 					+ ".xml");

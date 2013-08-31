@@ -237,7 +237,7 @@ class DirectoryTextField extends TextField {
 	 *         exist or is null.
 	 */
 	public boolean isValidDirectory() {
-		if (directory == null) {
+		if (directory == null || directory.get() == null) {
 			return false;
 		}
 		return directory.get().exists();
