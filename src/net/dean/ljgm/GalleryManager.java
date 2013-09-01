@@ -70,8 +70,8 @@ public class GalleryManager {
 	 * Converts the values of {@link #currentGalleries} into XML Elements and
 	 * then outputs the file into the location specified by {@link #CONFIG_XML}.
 	 */
-	public void save(boolean backup) {
-		if (backup && CONFIG_XML.exists()) {
+	public void save() {
+		if (CONFIG_XML.exists()) {
 			// Create the backup directory
 			File target = new File(System.getProperty("user.dir") + "/backups/libary-" + backupDateFormat.format(new Date())
 					+ ".xml");
@@ -382,6 +382,6 @@ public class GalleryManager {
 		currentGalleries.add(g);
 
 		// Save the galleries to the file
-		save(true);
+		save();
 	}
 }
